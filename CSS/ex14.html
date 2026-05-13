@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DisplayGrid</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .parent{
+        display: grid;
+        width: 850px;
+        height: 300px;
+        gap: 10px;
+        grid-template-columns: 200px 250px 200px 200px;
+    }
+    .parent div{
+        background-color: lightblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .child2{
+        grid-column: span 2;
+    }
+    .child1{
+        grid-row: span 2;
+    }
+    .child3{
+        grid-row: span 2;
+    }
+    .child14{
+        grid-column: span 4;
+    }
+</style>
+<body>
+    <div class="parent">
+        <div class="child1"><h1>Day</h1></div>
+        <div class="child2"><h1>Study Hour</h1></div>
+        <div class="child3"><h1>Subjects</h1></div>
+        <div class="child4"><h1>Start</h1></div>
+        <div class="child5"><h1>End</h1></div>
+        <div class="child6">Monday</div>
+        <div class="child7">8:00</div>
+        <div class="child8">9:30</div>
+        <div class="child9">Math</div>
+        <div class="child10">Tuesday</div>
+        <div class="child11">9:45</div>
+        <div class="child12">11:15</div>
+        <div class="child13">English</div>
+        <div class="child14">Total days: 2</div>
+    </div>
+</body>
+</html>

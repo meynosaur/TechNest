@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haerin-pf</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: silver;
+    }
+    .forms{
+        width: 1000px;
+        height: 400px;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .forms .pf1{
+        width: 400px;
+        height: 550px;
+        background-color: rgb(122, 118, 118);
+        border-radius: 30px;
+    }
+    .forms .pf1 .img1{
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 95%;
+        height: 65%;
+        object-fit: cover;
+        border-radius: 30px;
+    }
+    .forms .pf2 .blur-info{
+        width: 400px;
+        height: 550px;
+        background-color: rgba(122, 117, 117, 0.288);
+        border-radius: 30px;
+    }
+    .forms .pf1 .text1{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .text1 p{
+        font-size: 20px;
+    }
+    .forms .pf1 .icon1{
+        margin-top: 25px;
+        margin-left: 20px;
+        display: flex;
+    }
+    .icon1 a{
+        color: black;
+        font-size: 25px;
+    }
+    .icon1 p{
+        margin-left: 10px;
+        color: black;
+        font-size: 20px;
+    }
+    .icon1 button{
+        width: 90px;
+        height: 35px;
+        margin-left: 90px;
+        background-color: black;
+        border: black solid 1.5px;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 20px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+    .icon1 button:hover{
+        background-color: rgb(122, 118, 118);
+        color: black;
+    }
+    .icon1 button i{
+        font-weight: bold;
+    }
+    .forms .pf2{
+        width: 400px;
+        height: 550px;
+        background-image: url("https://i.pinimg.com/1200x/e7/b4/60/e7b460e900602b3b5522e0e8480718cf.jpg");
+        background-size: cover;
+        border-radius: 30px;
+        border: 8px solid grey;
+    }
+    .pf2 .blur-pf2{
+        margin-left: -7px;
+        margin-top: 356px;
+        width: 104%;
+        height: 35%;
+        background-color: rgba(42, 41, 41, 0.57);
+        border-radius: 30px;
+    }
+    .text2 {
+        padding-top: 25px;
+        margin-left: 25px;
+        color: white;
+    }
+    .text2 p{
+        font-size: 20px;
+    }
+    .icon2{
+        margin-top: 25px;
+        display: flex;
+    }
+    .icon2 a{
+        color: white;
+        font-size: 25px;
+        margin-right: 10px;
+    }
+    .icon2 button{
+        margin-left: 90px;
+        width: 90px;
+        height: 35px;
+        border-radius: 20px;
+        background-color: white;
+        font-weight: bold;
+        cursor: pointer;
+        border: none;
+    }
+    .icon2 i{
+        font-weight: bold;
+        margin-left: 5px;
+    }
+    .icon2 button:hover{
+        background-color: transparent;
+        color: white;
+        border: white solid 1.5px;
+    }
+</style>
+<body>
+    <div class="forms">
+        <div class="pf1">
+            <img src="https://i.pinimg.com/1200x/e7/b4/60/e7b460e900602b3b5522e0e8480718cf.jpg" alt="" class="img1">
+            <div class="text1">
+                <h2>Kang Haerin</h2>
+                <p>South Korean singer (NewJeans) <br>and actress.</p>
+            </div>
+            <div class="icon1">
+                <a href="#"><i class='bx bx-user' ></i></a>
+                <p>16.8M Followers</p>
+                <button>Follow <i class='bx bx-plus'></i></button>
+            </div>
+        </div>
+        <div class="pf2">
+            <div class="blur-pf2">
+                <div class="text2">
+                    <h2>Kang Haerin</h2>
+                    <p>South Korean singer (NewJeans) <br>and actress.</p>
+                    <div class="icon2">
+                        <a href="#"><i class='bx bx-user' ></i></a>
+                        <p>16.8M Followers</p>
+                        <button>Follow <i class='bx bx-plus'></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

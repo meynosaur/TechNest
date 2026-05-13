@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Bayon&family=Dangrek&family=Fasthand&family=Fjalla+One&family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Lora:ital,wght@0,400..700;1,400..700&family=Metal&family=Moul&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+.first{
+    width: 100%;
+    height: 130px;
+    background-color: #1B3351;
+    display: flex;
+    align-items: center;
+    gap: 300px;
+}
+.logo{
+    width: 250px;
+    height: 60px;
+    margin-left: 370px;
+}
+.nav{
+    display: flex;
+    margin-right: 20px;
+}
+.nav label{
+    color: white;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.nav .ib{
+    color: rgb(230, 198, 20);
+}
+.cam img{
+    margin-left: -400px;
+    width: 30px;
+    height: 20px;
+    border: white solid 1px;
+}
+.nav .search{
+    display: flex;
+    gap: 5px;
+}
+.search i{
+    margin-top: 4px;
+}
+.nav .back{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: #1B3351;
+    cursor: pointer;
+    
+}
+.nav .back:hover{
+    background-color: #1B2232;
+}
+.nav .so{
+    width: 150px;
+    height: 50px;
+}
+.nav .aa{
+    width: 150px;
+    height: 50px;
+}
+.nav .search{
+    width: 100px;
+    height: 50px;
+}
+.nav .ib{
+    width: 160px;
+    height: 50px;
+}
+.nav .cam{
+    border-radius: 0;
+    width: 1000px;
+    height: 45px;
+}   

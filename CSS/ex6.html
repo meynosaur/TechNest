@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bg</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(58, 89, 117);
+    }
+    .background{
+        display: flex;
+        width: 35%;
+        height: 50%;
+        background-image: url("https://i.pinimg.com/1200x/aa/39/d7/aa39d7d870faaf7ad834ceb7eac096c1.jpg");
+        background-size: cover;
+        background-position: center;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+    .background .text{
+        font-family: "Lora", serif;
+        color: white;
+        margin-top: 40%;
+        margin-left: 30px;
+        color: rgb(36, 59, 78);
+    }
+    .text h2{
+        font-size: 29px;
+        font-weight: bolder;
+    }
+    .bg-signin{
+        backdrop-filter: blur(10px);
+        width: 140px;
+        padding: 10px 20px;
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    .bg-signin a{
+        color: rgb(34, 56, 73);
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .background .form{
+        backdrop-filter: blur(5px);
+        margin-left: 99px;
+        width: 50%;
+        height: 100%;
+    }
+    .form .title{
+        color: rgb(53, 81, 105);
+        text-align: center;
+        margin-top: 30px;
+    }
+    .title h1{
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    .form .login-form{
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    .login-form label{
+        color: rgb(53, 81, 105);
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .login-form input{
+        width: 80%;
+        height: 35px;
+        border-radius: 10px;
+        border: rgb(53, 81, 105) solid 1px;
+        outline: none;
+        padding: 0 20px;
+        margin-top: 10px;
+        background-color: transparent;
+        color: white;
+    }
+    .form .button{
+        margin-top: 25px;
+        display: flex;
+        justify-content: center;
+    }
+    .button button{
+        background-color: rgba(226, 233, 238, 0.226);
+        width: 50%;
+        height: 30px;
+        border: none;
+        border-radius: 15px;
+        color: rgb(92, 91, 91);
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    .button button:hover{
+        background-color: rgb(226, 233, 238);
+        color: rgb(53, 81, 105);
+    }
+    .form #signup{
+        text-align: center;
+        margin-top: 10px;
+        color: rgb(17, 43, 66);
+        font-size: 18px;
+    }
+    .form .media-button{
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        margin-top: 12px;
+    }
+    .media-button .link{
+        color: white;
+        font-size: 20px;
+    }
+    .media-button .link:hover{
+        color: rgb(11, 22, 31);
+    }
+</style>
+<body>
+    <div class="background">
+        <div class="text">
+            <h2>It's time to boost <br>your creativity!</h2>
+            <div class="bg-signin">
+                Here you are <br> sign in
+                <a href="#"><i class='bx bxs-chevron-right'></i></a>
+            </div>
+        </div>
+        <div class="form">
+            <div class="title">
+                <h1>SH SOLUTION HAI</h1>
+                <p>Digital Solution of every problem</p>
+            </div>
+            <div class="login-form">
+                <Label>Full Name</Label><br>
+                <input type="text" placeholder="Your Name Here"><br><br>
+                <Label>E-mail</Label><br>
+                <input type="email" placeholder="E-mail Address"><br><br>
+                <Label>Password</Label><br>
+                <input type="password" placeholder="Password"><br>
+            </div>
+            <div class="button">
+                <button>Create Account</button>
+            </div>
+            <p id="signup">or signup with</p>
+            <div class="media-button">
+                <a href="#" class="link">
+                    <i class='bx bxl-facebook' ></i>
+                </a>
+                <a href="#" class="link">
+                    <i class='bx bxl-apple' ></i>
+                </a>
+                <a href="#" class="link">
+                    <i class='bx bxl-google' ></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Bayon&family=Dangrek&family=Fasthand&family=Fjalla+One&family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Lora:ital,wght@0,400..700;1,400..700&family=Metal&family=Moul&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+.control{
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    width: 1600px;
+    height: 800px;
+    background-color: white;
+    border-radius: 20px;
+}
+.control .first{
+    background-color: rgb(245, 134, 186);
+    width: 20%;
+    height: 100%;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px 0 0 20px;
+}
+.first a{
+    color: white;
+    margin-left: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.first Label{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.first .logo{
+    margin-bottom: 50px;
+}
+.first .db{
+    margin-bottom: 20px;
+    width: 295px;
+    height: 50px;
+    padding-left: 15px;
+    padding-top: 2px;
+    border-radius: 30px 0 0 30px;
+    background-color: rgb(247, 232, 232);
+    color: rgb(245, 134, 186);
+    margin-left: 26px;
+}
+.second {
+    width: 80%;
+    height: 100%;
+}
+.second .top{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(247, 232, 232);
+    display: flex;
+    padding-left: 30px;
+    padding-top: 30px;
+    color: black;
+    font-size: 25px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    border-radius: 0 20px 0 0;
+}
+.top a{
+    color: black;
+    font-weight: bold;
+}
+.top .db1{
+    margin-left: 20px;
+    font-weight: bolder;
+    margin-top: -5px;
+    margin-right: 350px;
+}
+.top .button{
+    margin-top: -15px;
+}
+.button button{
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    border: 1px solid rgb(192, 187, 187);
+    font-size: 15px;
+    margin-right: 320px;
+    background-color: rgb(247, 232, 232);
+    color: rgb(192, 187, 187);
+}
+.button button i{
+    margin-left: -30px;
+    margin-right: 20px;
+    color: grey;
+    font-weight: bold;
+}
+.second .img1{
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+.img1 img{
+    width: 45%;
+    height: 45%;
+    border-radius: 50%;
+    margin-top: -10px;
+    margin-right: 15px;
+}
+.img1 .name{
+    margin-top: -15px;
+    font-weight: bolder;
+}
+.img1 .pos{
+    white-space: nowrap;
+    margin-left: -125px;
+    margin-top: 15px;
+    font-size: 15px;
+    color: grey;
+}
+.second .sec{
+    margin-top: 40px;
+    margin-left: 40px;
+    display: flex;
+}
+.sec .st{
+    background-color: rgb(247, 232, 232);
+    width:270px;
+    height: 150px;
+    position: relative;
+    padding-top: 40px;
+    padding-left: 35px;
+}
+.st Label{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.st a{
+    color: rgb(245, 134, 186);
+    font-size: 35px;
+    margin-left: 120px;
+}
+.st .cust{
+    position: absolute;
+    color: grey;
+    font-weight: 350;
+    font-size: 15px;
+    bottom: 50px;
+    left: 35px;
+}
+.sec .nd{
+    background-color: rgb(247, 232, 232);
+    width: 270px;
+    height: 150px;
+    margin-left: 40px;
+    padding-top: 40px;
+    padding-left: 35px;
+}
+.nd Label{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.nd a{
+    color: rgb(245, 134, 186);
+    font-size: 40px;
+    margin-left: 120px;
+}
+.nd .pro{
+    color: grey;
+    font-weight: 350;
+    font-size: 15px;
+}
+.sec .rd{
+    background-color: rgb(247, 232, 232);
+    width: 270px;
+    height: 150px;
+    margin-left: 40px;
+    padding-top: 40px;
+    padding-left: 35px;
+}
+.rd Label{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.rd a{
+    color: rgb(245, 134, 186);
+    font-size: 40px;
+    margin-left: 120px;
+}
+.rd .ord{
+    color: grey;
+    font-weight: 350;
+    font-size: 15px;
+}
+.sec .th{
+    background-color:rgb(245, 134, 186);
+    width: 270px;
+    height: 150px;
+    margin-left: 40px;
+    padding-top: 40px;
+    padding-left: 35px;
+}
+.th Label{
+    font-weight: bolder;
+    font-size: 30px;
+    color: rgb(247, 232, 232);
+    position: relative;
+    top: 10px;
+}
+.th a{
+    position: relative;
+    color: rgb(247, 232, 232);
+    font-size: 40px;
+    margin-left: 120px;
+    top: -30px;
+    left: 40px;
+}
+.th .in{
+    position: relative;
+    color: grey;
+    font-weight: 350;
+    font-size: 15px;
+    color: rgb(247, 232, 232);
+    top: -10px;
+    left: -160px;
+}
+.sec .thir{
+    width: 100%;
+}
+.thir .tb{
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 56%;
+    background-color: rgb(247, 232, 232);
+}
+.tb .header{
+    padding-top: 10px;
+    padding-left: 15px;
+    display: flex;
+    gap: 420px;
+}
+.header .see-btt{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    width: 90px;
+    height: 35px;
+    border: none;
+    background-color: rgb(245, 134, 186);
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+.see-btt:hover{
+    background-color: white;
+    color: rgb(245, 134, 186);
+}
+.tb table{
+    margin-top: 10px;
+    border-collapse: collapse;
+    width: 100%;
+    height: 370px;
+    border: none;
+}
+table td{
+    padding-left: 15px;
+}
+.rst td{
+    font-size: 20px;
+    font-weight: bolder;
+    border-collapse: collapse;
+    border-color: rgb(209, 202, 202);
+    border-left: none;
+    border-right: none;
+}
+.dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 2px;
+}
+.purple { background: purple; }
+.pink { background: rgb(233, 25, 129); }
+.orange { background: rgb(211, 100, 27); }
+.thir .tb1{
+    width: 35%;
+    background-color: rgb(247, 232, 232);
+    margin-left: 790px;
+    margin-top: -425px;
+}
+.tb1 .header{
+    padding-top: 15px;
+    padding-left: 20px;
+    display: flex;
+    gap: 170px;
+}
+.header button{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(245, 134, 186);
+    color: white;
+}
+.tb1 table{
+    margin-top: 10px;
+    border-collapse: collapse;
+    width: 100%;
+    border: none;
+
+}
+.tb1 table img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.tb1 table i{
+    color: rgb(233, 25, 129);
+    font-size: 20px;
+}
+.tb1 table .name{
+    font-weight: bolder;
+}
+.tb1 .name Label{
+    font-weight: lighter;
+    font-size: 13px;
+    color: rgb(110, 108, 108);
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style> 
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .parent{
+        display: grid;
+        width: 600px;
+        height: 250px;
+        gap: 10px;
+        grid-template-columns: 100px 300px 200px;
+    }
+    .parent div{
+        background-color: lightcoral;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .child7{
+        grid-column: span 3;
+        display: flex;
+        align-items: start;
+    }
+</style>
+<body>
+    <div class="parent">
+        <div class="child1"><h1>No</h1></div>
+        <div class="child2"><h1>Name</h1></div>
+        <div class="child3"><h1>Score</h1></div>
+        <div class="child4"><h2>1</h2></div>
+        <div class="child5"><h2>Chy Worn</h2></div>
+        <div class="child6"><h2>90</h2></div>
+        <div class="child7"><h2>Total Student : 1</h2></div>
+    </div>
+</body>
+</html>

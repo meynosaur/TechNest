@@ -1,0 +1,476 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    background-color: antiquewhite;
+    justify-content: center ;
+    align-items: center;
+}
+.control{
+    display: flex;
+    width: 85%;
+    height: 90%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.control .first{
+    background-color: black;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.icons{
+    padding-left: 35px;
+    flex-direction: column;
+    display: flex;
+}
+.icons a{
+    color: white;
+    font-size: 25px;
+    margin-top: 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.icons .i-home{
+    padding-top: 70px;
+    font-weight: bolder;
+}
+.icons Label{
+    font-size: 17px;
+    margin-left: 20px
+}
+.icons .pf{
+    width: 30px;
+    height: 30px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.pf .pf-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.pf Label{
+    color: white;
+}
+.icons .i-menu{
+    padding-top: 180px;
+}
+.icons .red{
+    position: absolute;
+    background-color: red;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    top: 376px;
+    left: 53px;
+}
+.control .second{
+    width: 30%;
+    height: 100%;
+    background-color: black;
+}
+.pf-name{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 700px;
+}
+.pf-name .pf-img1{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.pf-name Label{
+    color: white;
+    margin-right: 7px;
+    font-size: 18px;
+}
+.pf-name .one{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 12px;
+    color: grey;
+    margin-left: 7px;
+}
+.pf-name .period{
+    color: grey;
+}
+.pf-name .dot{
+    color: white;
+    font-size: 20px;
+    margin-left: 200px;
+}
+.second .big-img{
+    width: 100%;
+    height: 50%;
+}
+.big-img img{
+    position: relative;
+    width: 100%;
+    bottom: 680px;
+    border-radius: 10px;
+}
+.big-img .tag{
+    position: relative;
+    bottom: 720px;
+    left: 15px;
+    color: rgb(44, 44, 44);
+    font-size: 25px;
+}
+.info{
+    display: flex;
+    position: relative;
+    bottom: 435px;
+    margin-top: 5px;
+}
+.info Label{
+    color: white;
+    margin-left: 6px;
+}
+.info a{
+    margin-left: 15px;
+    color: white;
+    font-size: 20px;
+}
+.info .save{
+    padding-left: 160px;
+}
+.info .caption{
+    display: flex;
+}
+.caption Label{
+    left: 20px;
+    position: relative;
+    color: white;
+    bottom: 430px;
+}
+.caption a{
+    position: relative;
+    left: 20px;
+    bottom: 427px;
+}
+.caption .label{
+    font-weight: bolder;
+}
+.control .third{
+    position: relative;
+    width: 45%;
+    height: 100%;
+    background-color: black;
+}
+.third img{
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.third .me{
+    width: 50px;
+    height: 50px;
+    display: flex;
+}
+.me img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.me label{
+    color: white;
+    margin-top: 45px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.me #Mey{
+    position: absolute;
+    left: 130px;
+    top: 25px;
+    font-size: 15px;
+    color: grey;
+}
+.me #sw{
+    position: absolute;
+    top: 18px;
+    left: 370px;
+    color: rgb(35, 35, 189);
+    font-size: 18px;
+}
+.third .text{
+    margin-top: 80px;
+    margin-left: 80px;
+    display: flex;
+    gap: 180px;
+    font-size: 18px;
+    color: white;
+}
+.third .hanni{
+    display: flex;
+    margin-top: -15px;
+}
+.hanni img{
+    width: 50px;
+    height: 100%;
+    border-radius: 50%;
+}
+.hanni Label{
+    color: white;
+    margin-top: 45px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.hanni #follow1{
+    font-size: 18px;
+    color: rgb(35, 35, 189);
+    padding-top: 15px;
+    margin-left: 195px;
+}
+.hanni .tiny1{
+    width: 15px;
+    height: 15px;
+}
+.tiny1 .img1{
+    width: 100%;
+    position: relative;
+    top: 35px;
+    right: 370px;
+}
+.tiny1 .img2{
+    width: 120%;
+    height: 120%;
+    position: relative;
+    top: -25px;
+    right: 360px;
+    border: 1.5px solid black ;
+}
+.hanni p{
+    margin-left: -270px;
+    margin-top: 75px;
+    white-space: nowrap;
+    color: grey;
+    font-size: 15px;
+}
+.third .minji{
+    display: flex;
+    margin-top: -15px;
+}
+.minji img{
+    width: 50px;
+    height: 100%;
+    border-radius: 50%;
+}
+.minji Label{
+    color: white;
+    margin-top: 45px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.minji #follow2{
+    font-size: 18px;
+    color: rgb(35, 35, 189);
+    padding-top: 15px;
+    margin-left: 195px;
+}
+.minji .tiny2{
+    width: 15px;
+    height: 15px;
+}
+.tiny2 .img1{
+    width: 100%;
+    position: relative;
+    top: 35px;
+    right: 363px;
+}
+.tiny2 .img2{
+    width: 120%;
+    height: 120%;
+    position: relative;
+    top: -25px;
+    right: 355px;
+    border: 1px solid black ;
+}
+.minji p{
+    margin-left: -265px;
+    margin-top: 75px;
+    white-space: nowrap;
+    color: grey;
+    font-size: 15px;
+}
+.third .hyein{
+    display: flex;
+    margin-top: -15px;
+}
+.hyein img{
+    width: 50px;
+    height: 100%;
+    border-radius: 50%;
+}
+.hyein Label{
+    color: white;
+    margin-top: 45px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.hyein #follow3{
+    font-size: 18px;
+    color: rgb(35, 35, 189);
+    padding-top: 15px;
+    margin-left: 195px;
+}
+.hyein .tiny3{
+    width: 15px;
+    height: 15px;
+}
+.tiny3 .img1{
+    width: 100%;
+    position: relative;
+    top: 35px;
+    right: 363px;
+}
+.tiny3 .img2{
+    width: 120%;
+    height: 120%;
+    position: relative;
+    top: -25px;
+    right: 355px;
+    border: 1px solid black ;
+}
+.hyein p{
+    margin-left: -265px;
+    margin-top: 75px;
+    white-space: nowrap;
+    color: grey;
+    font-size: 15px;
+}
+.third .danielle {
+    display: flex;
+    margin-top: -15px;
+}
+.danielle img{
+    width: 50px;
+    height: 100%;
+    border-radius: 50%;
+}
+.danielle Label{
+    color: white;
+    margin-top: 45px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.danielle #follow4{
+    font-size: 18px;
+    color: rgb(35, 35, 189);
+    padding-top: 15px;
+    margin-left: 175px;
+}
+.danielle .tiny4{
+    width: 15px;
+    height: 15px;
+}
+.tiny4 .img1{
+    width: 100%;
+    position: relative;
+    top: 35px;
+    right: 363px;
+}
+.tiny4 .img2{
+    width: 120%;
+    height: 120%;
+    position: relative;
+    top: -25px;
+    right: 355px;
+    border: 1px solid black ;
+}
+.danielle p{
+    margin-left: -265px;
+    margin-top: 75px;
+    white-space: nowrap;
+    color: grey;
+    font-size: 15px;
+}
+.third .haerin {
+    display: flex;
+    margin-top: -15px;
+}
+.haerin img{
+    width: 50px;
+    height: 100%;
+    border-radius: 50%;
+}
+.haerin Label{
+    color: white;
+    margin-top: 45px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.haerin #follow5{
+    font-size: 18px;
+    color: rgb(35, 35, 189);
+    padding-top: 15px;
+    margin-left: 185px;
+}
+.haerin .tiny5{
+    width: 15px;
+    height: 15px;
+}
+.tiny5 .img1{
+    width: 100%;
+    position: relative;
+    top: 35px;
+    right: 360px;
+}
+.haerin p{
+    margin-left: -275px;
+    margin-top: 75px;
+    white-space: nowrap;
+    color: grey;
+    font-size: 15px;
+}
+.text3{
+    color: white;
+    margin-top: 50px;
+    margin-left: 80px;
+    letter-spacing: 1px;
+    color: grey;
+}
+.button{
+    margin-left: 490px;
+    margin-top: 100px;
+}
+.button #btt {
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: rgb(38, 35, 35);
+    border: none;
+    color: white;
+
+    display: flex;            
+    align-items: center;     
+    padding: 0 10px;          
+    gap: 8px;                
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button #btt img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-left: auto; 
+    margin-top: 0px;  
+}
+
+.button #btt i {
+    font-size: 20px;       
+}
+#btt:hover{
+    background-color: white;
+    color: black;
+}

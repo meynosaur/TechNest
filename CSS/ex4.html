@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneakers</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            background-color: lightskyblue;
+            display: flex;
+        }
+        .box{
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+            width: 350px;
+            height: 430px;
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Bayon&family=Dangrek&family=Fasthand&family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Metal&family=Moul&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+        .box .text{
+            font-family: "Oswald", sans-serif;
+            margin-top: 40px;
+            margin-left: 40px;
+        }
+        .text .title{
+            font-size: 20px;
+            font-weight: bolder;
+            margin-bottom: 10px;
+            color: lightskyblue;
+        }
+        .text .quote{
+            line-height: 5mm ;
+            color: grey;
+        }
+        .box .img{
+            width: 300px;
+            margin-top: -60px;
+            margin-left: 30px;
+        }
+        .img .shoes-img{
+            width: 100%;
+            
+        }
+        .box .button{
+        display: flex;
+        gap: 12px;
+        margin: 10px auto;
+        padding: 8px 12px;
+        border-radius: 20px;
+        width: fit-content;
+        margin-top: -35px;
+        }
+        .button label{
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+        .button .blue{
+            border: 2px solid lightslategray;
+            background-color: lightskyblue;
+        }
+        .button .pink{
+            background-color: pink;
+        }
+        .button .red{
+            background-color: red;
+        }
+        .button .black{
+            background-color: black;
+        }
+        .box .buying{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 45px;
+            margin-top: 30px;
+        }
+        .buying .price{
+            font-size: 20px;
+            font-weight: bolder;
+            color: lightskyblue;
+        }
+        .buying .add{
+            padding: 8px 12px;
+            border: none;
+            background-color: lightskyblue;
+            color: white;
+            font-weight: bolder;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .add:hover{
+            background-color: white;
+            color: lightskyblue;
+            border: 2px solid lightskyblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="text">
+            <div class="title">ADIDAS SAMBA</div>
+            <div class="quote">Shoes with different color and <br> background.</div>
+        </div>
+        <div class="img">
+            <img class="shoes-img" src="img2.png" alt="">
+        </div>
+        <div class="button">
+            <label for="blue" class="blue"></label>
+            <label for="pink" class="pink"></label>
+            <label for="red" class="red"></label>
+            <label for="black" class="black"></label>
+        </div>
+        <div class="buying">
+            <div class="price">$129.99</div>
+            <button class="add">Add to Cart</button>
+        </div>
+    </div>
+</body>
+</html>

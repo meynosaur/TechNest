@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    span{
+        display: block;
+    }
+    h1::selection{
+        background-color: rgb(161, 221, 161);
+        color: white;
+    }
+    .te1{
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        background-color: rgb(68, 126, 68);
+        margin-top: 10px;
+    }
+    .te2{
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        background-color: lightcoral;
+        margin-top: 10px;
+    }
+    .te3{
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        background-color: lightblue;
+        margin-top: 10px;
+    }
+    .mother{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        margin-top: 10px;
+    }
+    .te4{
+        width: 100px;
+        height: 100px;
+        background-color: lightgreen;
+        margin-top: 10px;
+    }
+    .te5{
+        width: 100px;
+        height: 100px;
+        background-color: lightyellow;
+        margin-top: 10px;
+    }
+    .te6{
+        width: 100px;
+        height: 100px;
+        background-color: lightpink;
+        margin-top: 10px;
+    }
+    .parent{
+        margin-top: -600px;
+        display: grid;
+        width: 700px;
+        height: 700px;
+        gap: 10px;
+        grid-template-columns: repeat(4,300px);
+        grid-template-rows: 200px 300px 400px;
+    }
+    .parent div{
+        background-color: lightcoral;
+    }
+    .child5{
+        grid-column: span 3;
+    }
+</style>
+<body>
+    <span>This is a span element</span>
+    <span>This is another span element</span>
+    <h1>This is an h1 element</h1>
+    <h1>This is another h1 element</h1>
+
+    <div class="te1"></div>
+    <div class="te2"></div>
+    <div class="te3"></div>
+    <div class="mother">
+        <div class="te4"></div>
+        <div class="te5"></div>
+        <div class="te6"></div>
+    </div>
+    <div class="parent">
+        <div class="child1">1</div>
+        <div class="child2">2</div>
+        <div class="child3">3</div>
+        <div class="child4">4</div>
+        <div class="child5">5</div>
+        <div class="child6">6</div>
+    </div>
+</body>
+</html>

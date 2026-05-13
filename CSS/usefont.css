@@ -1,0 +1,23 @@
+*{
+    color: deeppink;
+    text-align: center;
+}
+#diff{
+    color: red;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+#kitty{
+    background-color: pink;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px;
+    width: 450px;
+}
+#kitty #cat{
+    margin-left: 50px;
+    display: flex;
+    gap: 30px; 
+
+}

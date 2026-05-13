@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .outer{
+        width: 800px;
+        height: 600px;
+        background-color: none;
+        border: 4px solid lightcoral;
+        position: relative;
+    }
+    .inner{
+        width: 200px;
+        height: 200px;
+        background-color: lightcoral;
+        position: absolute;
+        bottom: 50px;
+    }
+</style>
+<body>
+    <div class="outer">
+        <div>
+        </div>
+        <div class="inner">
+        </div>
+    </div>
+</body>
+</html>

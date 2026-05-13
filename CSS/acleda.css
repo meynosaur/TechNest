@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Bayon&family=Dangrek&family=Fasthand&family=Fjalla+One&family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Lora:ital,wght@0,400..700;1,400..700&family=Metal&family=Moul&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.first {
+    width: 100%;
+    height: 130px;
+    background-color: #1B3351;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.container {
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.logo{
+    width: 250px;
+    height: 60px;
+    margin-left: 20px;
+}
+.nav{
+    flex-wrap: wrap;
+    margin-left: 0;
+    display: flex;
+}
+.nav label{
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+.nav .ib{
+    color: rgb(230, 198, 20);
+}
+.cam img{
+    width: 30px;
+    height: 20px;
+    border: white solid 1px;
+    margin-left: 0;
+}
+.nav .search{
+    display: flex;
+    gap: 5px;
+}
+.search i{
+    margin-top: 4px;
+}
+.nav .back{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: #1B3351;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.nav .back:hover{
+    background-color: #1B2232;
+}
+.nav .so{
+    width: 150px;
+    height: 50px;
+}
+.nav .aa{
+    width: 150px;
+    height: 50px;
+}
+.nav .search{
+    width: 100px;
+    height: 50px;
+}
+.nav .ib{
+    width: 160px;
+    height: 50px;
+}
+.nav .cam {
+    width: 50px;
+    height: 45px;
+    border-radius: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.drop1{
+    position: relative;
+}
+.drop1:hover .down1{
+    height: 190px;
+    border: grey solid 1px;
+}
+.drop1:hover .aa{
+    width: 150px;
+    height: 50px;
+    background-color: #1B2232;
+}
+.nav .down1{
+    position: absolute;
+    width: 180px;
+    height: 0;
+    border-radius: 10px;
+    background-color: #122133;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: end;
+    padding-right: 10px;
+    overflow: hidden;
+    transition: height 0.3s ease-in-out;
+    right: 0;
+}
+.down1 a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+.down1 a:hover{
+    color: rgb(221, 161, 32);
+    text-decoration: underline;
+}
+.down1 .divider {
+    width: 100%;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    margin: none;
+}
+.drop1:hover #icon-down1{
+    display: none;
+}
+.drop1 #icon-up1{
+    display: none;
+}
+.drop1:hover #icon-up1{
+    display: block;
+}
+.drop2{
+    position: relative;
+}
+.drop2:hover .down2{
+    height: 80px;
+    border: grey solid 1px;
+}
+.nav .down2{
+    position: absolute;
+    width: 180px;
+    height: 0;
+    border-radius: 10px;
+    background-color: #122133;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: end;
+    padding-right: 10px;
+    overflow: hidden;
+    transition: height 0.3s ease-in-out;
+    right: 0;
+}
+.down2 a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+.down2 a:hover{
+    color: rgb(221, 161, 32);
+    text-decoration: underline;
+}
+.drop2:hover #icon-down2{
+    display: none;
+}
+.drop2 #icon-up2{
+    display: none;
+}
+.drop2:hover #icon-up2{
+    display: block;
+}
+.container .menu{
+    display: none;
+    color: grey;
+    font-size: 24px;
+    cursor: pointer;
+}
+@media (max-width: 900px){
+    .nav{
+        display: none;
+    }   
+    .container{
+        justify-content: center;
+    }
+    .container .menu{
+        position: absolute;
+        display: flex;
+        left: 10px;
+        text-decoration: none;
+    }
+}
+.menu{
+    width: 40px;
+    height: 35px;
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1B3351;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.menu:hover{
+    background-color: #1B2232;
+}
+.second{
+    width: 100%;
+    height: 60px;
+    background-color: #122133;
+}
+.container-nav{
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 0 15px;
+}
+.container-nav Label{
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+}
+.container-nav .nav1{
+    display: flex;
+    gap: 30px;
+}
+.container-nav .exchange{
+    display: flex;
+    gap: 10px;
+}
+.nav1 Label:hover{
+    color: rgb(221, 161, 32);
+}
+.nav1 Label:hover #icon-down1{
+    display: none;
+}
+.nav1 #icon-up1{
+    display: none;
+}
+.nav1 Label:hover #icon-up1{
+    display: inline;
+}
+.drop3{
+    position: relative;
+}
+.drop3:hover .down3{
+    height: 280px;
+    border: grey solid 1px;
+}
+.down3{
+    position: absolute;
+    left: 0;
+    width: 250px;
+    height: 0;
+    border-radius: 10px;
+    background-color: #122133;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: start;
+    padding-right: 10px;
+    overflow: hidden;
+    transition: height 0.2s ease-in-out;
+    right: 0;
+}
+.nav1 a:first-child{
+    margin-top: 10px;
+}
+.nav1 a{
+    margin-top: 3px;
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    transition: all 0.5s ease;
+}
+.nav1 a:hover{
+    color: rgb(221, 161, 32);
+    text-decoration: underline;
+}
+.drop4{
+    position: relative;
+}
+.drop4:hover .down4{
+    height: 260px;
+    border: grey solid 1px;
+}
+.down4{
+    position: absolute;
+    width: 250px;
+    height: 0;
+    border-radius: 10px;
+    background-color: #122133;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: start;
+    padding-right: 10px;
+    overflow: hidden;
+    transition: height 0.2s ease-in-out;
+    left: 0;
+}
+.drop5{
+    position: relative;
+}
+.drop5:hover .down5{
+    height: 260px;
+    border: grey solid 1px;
+}
+.down5{
+    position: absolute;
+    width: 250px;
+    height: 0;
+    border-radius: 10px;
+    background-color: #122133;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: start;
+    padding-right: 10px;
+    overflow: hidden;
+    transition: height 0.2s ease-in-out;
+    left: 0;
+}
+.drop6{
+    position: relative;
+}
+.drop6:hover .down6{
+    height: 460px;
+    border: grey solid 1px;
+}
+.down6{
+    position: absolute;
+    width: 250px;
+    height: 0;
+    border-radius: 10px;
+    background-color: #122133;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: start;
+    padding-right: 10px;
+    overflow: hidden;
+    transition: height 0.2s ease-in-out;
+    left: 0;
+}
+.nav1 Label:last-child{
+    padding-top: 4px;
+}
+.container-nav .exchange{
+    display: flex;
+    gap: 20px;
+}
+.container-nav .exchange Label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.exchange Label:nth-child(2) img{
+    width: 25px;
+    height: 15px;
+}
+.exchange Label:nth-child(2) span{
+    font-size: 13px;
+    margin-left: 5px;
+}
+.exchange Label:nth-child(3) span{
+    color: red;
+}
+.exchange Label:nth-child(4) span{
+    color: green;
+}
+@media (max-width: 900px){
+    .container-nav .nav1{
+        display: none;
+    }
+}
+.third{
+    width: 100%;
+    height: 500px;
+    color: #091521;
+}

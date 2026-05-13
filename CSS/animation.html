@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .box{
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+        position: relative;
+    }
+    .test{
+        width: 100px;
+        height: 100px;
+        background-color: pink;
+        position: absolute;
+        animation: test 1s ease-in-out infinite alternate;
+    }
+    @keyframes test {
+        from{
+            width: 0px;
+        }to{
+            width: 200px;
+        }
+    }
+
+    .box1{
+        width: 200px;
+        height: 200px;
+        background-color: black;
+        position: relative;
+    }
+    .test1{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: pink;
+        animation: test1 2s ease-in-out infinite;
+    }
+    @keyframes test1 {
+        0%{
+            top: 0;
+            left: 0;
+        }
+        25%{
+            top: 0;
+            left: calc(100% - 50px);
+        }
+        50%{
+            left: calc((100% - 50px));
+            top: calc(100% - 50px);
+        }
+        75%{
+            top: calc(100% - 50px);
+            left: 0;
+        }
+        100%{
+            left: 0;
+            top: 0;
+        }
+    }
+    .pic{
+        position: relative;
+    }
+    .img{
+        position: absolute;
+        top: 270px;
+        left: 530px;
+        width: 190px;
+        animation: img 0.2s ease infinite ;
+    }
+    @keyframes img {
+        from{
+            width: 190px;
+        }to{
+            width:  250px;
+        }
+    }
+</style>
+<body>
+    <div class="box">
+        <div class="test"></div>
+    </div>
+    <div class="box1">
+        <div class="test1">
+
+        </div>
+    </div>
+    <div class="img">
+        <img class="pic" src="https://i.pinimg.com/736x/ef/3e/bd/ef3ebd7131c09adefaf23b18dc7a3eed.jpg" alt="">
+        <img class="img" src="download (2).png" alt="">
+    </div>
+</body>
+</html>

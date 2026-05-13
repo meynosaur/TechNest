@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixed</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .container{
+        position: relative;
+        width: 1000px;
+        height: 600px;
+        background-color: black;
+        color: pink;
+    }
+    .test1{
+        position: absolute;
+        width: 800px;
+        height: 400px;
+        background-color: cadetblue;
+        z-index: 0;
+    }
+    .test2{
+        position: absolute;
+        width: 600px;
+        height: 200px;
+        background-color: rgb(160, 95, 140);
+        z-index: 2;
+    }
+    .test3{
+        position: absolute;
+        width: 400px;
+        height: 150px;
+        background-color: rgb(228, 156, 61);
+        z-index: 4;
+    }
+    .overflow{
+        width: 300px;
+        height: 200px;
+        background-color: brown;
+        overflow: auto;
+    }
+    .visit{
+        color: red;
+    }
+    .visit:visited{
+        color: black;
+    }
+    .link{
+        color: hotpink;
+    }
+    .link:link{
+        color: blue;
+    }
+    .child h1:first-child{
+        color: pink;
+    }
+    h1:nth-child(2){
+        color: red;
+    }
+    h1:last-child{
+        color: orange;
+    }
+    input:checked{
+        width: 80px;
+        height: 80px;
+    }
+    p::selection{
+        color: chocolate;
+        background-color: pink;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="test1">
+            <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat voluptatem iure neque dicta laborum iste facilis voluptas, similique atque nisi omnis iusto aperiam repellendus quisquam quae eius recusandae ad consequuntur.</h3>
+        </div>
+        <div class="test2">
+            <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat voluptatem iure neque dicta laborum iste facilis voluptas, similique atque nisi omnis iusto aperiam repellendus quisquam quae eius recusandae ad consequuntur.</h3>
+        </div>
+        <div class="test3">
+            <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat voluptatem iure neque dicta laborum iste facilis voluptas, similique atque nisi omnis iusto aperiam repellendus quisquam quae eius recusandae ad consequuntur.</h3>
+        </div>
+        
+    </div>
+    <div class="overflow">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque eius optio nemo maiores, consequatur voluptates, necessitatibus esse consequuntur corrupti iure error veniam impedit! Perspiciatis eligendi error consectetur voluptatem atque deserunt sapiente eos unde dolores, aperiam quaerat dignissimos minima recusandae modi pariatur eveniet, esse rem odio commodi ducimus possimus dolorum? Ratione, facere repellendus. Mollitia, quasi reprehenderit eius placeat id omnis ex eligendi eum sint soluta ipsum dolorum. Reiciendis sunt maiores est minus laudantium porro, aliquam vel! Porro adipisci laborum quos sit a suscipit voluptatum fugiat quis possimus veritatis provident magnam incidunt, quod quisquam architecto. Impedit rerum vero explicabo asperiores, culpa deserunt?
+    </div>
+    <div class="visit">
+        <a href="https://maps.app.goo.gl/ZpCAP1Tuq11dKTwd9" target="_blank">Hospital</a>
+    </div>
+    <div class="link">
+        <a href="https://maps.app.goo.gl/Kse8ZMwuM9NxBMhm8" target="_blank">Calmette</a>
+    </div>
+    <div class="child">
+        <h1>Nothing is crueler than people</h1>
+        <h1>people would do anything to benefits themselves</h1>
+        <h1>Humans are the ones who destroying nature</h1>
+    </div>
+    <input type="checkbox">
+    <select name="Select Gender"  id="">
+        <option disabled selected value="">Select one</option>
+        <option value="">Female</option>
+        <option value="">Male</option>
+    </select>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque fugiat soluta iste debitis nihil facilis dolor! Reprehenderit, mollitia! Quaerat laborum necessitatibus, explicabo rerum quibusdam corporis temporibus nesciunt cumque sunt? Mollitia cupiditate aliquid facilis at dolorem nisi iure harum, obcaecati quo in, ducimus nemo ad magnam tempora repellendus quas deserunt, odit quos. Eius voluptas sapiente accusantium eveniet voluptatum, suscipit cumque, recusandae iure reprehenderit eligendi quam architecto culpa dolor cum dicta velit id minus exercitationem. Aspernatur magni repellat quia eveniet laudantium reprehenderit amet cum non. Eius rem, laboriosam minus laborum eum consequuntur facilis doloremque, quasi est natus repellat quisquam harum aut repellendus.
+    </p>
+    <input type="" placeholder="">
+</body>
+</html>

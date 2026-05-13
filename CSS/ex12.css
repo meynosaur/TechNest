@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Bayon&family=Dangrek&family=Fasthand&family=Fjalla+One&family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Lora:ital,wght@0,400..700;1,400..700&family=Metal&family=Moul&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-family: "Outfit", sans-serif;
+    position: relative;
+}
+.first{
+    padding-top: 90px;
+    height: 100vh;
+    background-image: url("https://i.pinimg.com/1200x/43/cc/b2/43ccb23684066feb3074167fea7e82d2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px 15px 0 0;
+}
+.first .top{
+    position: fixed;  
+    top: 0;            
+    left: 0;           
+    width: 100%; 
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.911);
+    border-radius: 15px;
+    z-index: 1;
+}
+.top h2{
+    margin-left: 100px;
+    margin-top: 15px;
+    color: rgb(21, 104, 41);
+    font-size: 30px;
+}
+.top .navbar{
+    margin-top: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.top .home{
+    margin-left: 500px;
+}
+.top .search{
+    margin-top: 25px;
+    margin-left: 450px;
+    font-size: 20px;
+    color: black;
+    font-weight: bolder;
+}
+.top .line{
+    margin-top: 10px;
+    margin-left: -15px;
+    width: 5px;
+    height: 50px;
+    border: 1px solid rgb(156, 155, 155);
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+}
+.top .button1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.top button{
+    color: white;
+    margin-top: 15px;
+    margin-left: -10px;
+    width: 110px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(21, 104, 41);
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3 ease;
+}
+.top button:hover{
+    background-color: white;
+    color: rgb(21, 104, 41);
+}
+.first h1{
+    margin-top: 250px;
+    margin-left: 150px;
+    color: white;
+    font-size: 70px;
+}
+.first p{
+    margin-top: 20px;
+    margin-left: 150px;
+    color: white;
+    font-size: 23px;
+}
+.first .button2{
+    margin-left: 150px;
+    margin-top: 50px;
+    width: 170px;
+    height: 45px;
+    border-radius: 25px;
+    border: 1px solid white;
+    background-color: rgb(21, 104, 41);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.button2:hover{
+    border: 1px solid rgb(21, 104, 41);
+    color: rgb(21, 104, 41);
+    background-color: white;
+}
+.oval{
+    position: absolute;
+    top: 870px;
+    left: 150px;
+    width: 85%;
+    height: 160px;
+    background-color: rgb(152, 180, 141);
+    border-radius: 80px;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    z-index: 0;
+}
+.oval .white{
+    width: 75%;
+    height: 50%;
+    border-radius: 70px;
+    background-color: rgb(248, 250, 232);
+    margin-top: 40px;
+    margin-left: 85px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    padding-top: 26px;
+    padding-left: 40px;
+}
+.white Label{
+    color: grey;
+    font-size: 20px;
+}
+.white .line1{
+    width: 10px;
+    height: 40px;
+    border: 1px solid grey;
+    margin-left: 250px;
+    margin-right: 50px;
+    margin-top: -5px;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+}
+.white a{
+    margin-top: 2px;
+    color: rgb(21, 104, 41);
+    font-size: 20px;
+    font-size: 25px;
+    margin-right: 20px;
+}
+.white .user{
+    margin-left: 450px;
+}
+.oval .green{
+    width: 13%;
+    height: 50%;
+    background-color: rgb(21, 104, 41);
+    margin-top: 40px;
+    margin-left: 30px;
+    border-radius: 70px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-top: 24px;
+    padding-left: 65px;
+    cursor: pointer;
+    color: rgb(248, 250, 232);
+    font-size: 22px;
+}
+.green:hover{
+    background-color: rgb(248, 250, 232);
+    color: rgb(21, 104, 41);
+    border: 1px solid rgb(21, 104, 41);
+}
+.second{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(248, 250, 232);
+    display: flex;
+}
+.img{
+    position: relative;
+}
+.img1{
+    margin-top: 160px;
+    margin-left: 350px;
+    width: 450px;
+    border: 10px solid white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.img2{
+    position: absolute;
+    top: 110px;
+    right: 350px;
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.img3{
+    position: absolute;
+    top: 560px;
+    right: -40px;
+    width: 90px;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.text{
+    margin-top: 157px;
+    margin-left: 160px;
+}
+.text h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.text p{
+    line-height: 8mm;
+    color: rgb(90, 88, 88);
+    font-size: 18px;
+}
+.text button{
+    margin-top: 70px;
+    border-radius: 50px;
+    width: 200px;
+    height: 70px;
+    font-size: 18px;
+    border: none;
+    background-color: rgb(21, 104, 41);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.text a{
+    color: white;
+}
+.text span{
+    color: white;
+}
+.third{
+    position: relative;
+    width: 100%;
+    height: 750px;
+    background-color: beige;
+}
+.third Label{
+    position: absolute;
+    top: 40px;
+    margin-left: 620px;
+    color: rgb(21, 104, 41);
+    font-size: 40px;
+    font-weight: bolder;
+}
+.pic{
+    display: flex;
+    gap: 60px;
+    margin-left: 280px;
+}
+.pic .box{
+    width: 400px;
+    height: 520px;
+    background-color: white;
+    margin-top: 140px;
+    border-radius: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.pho{
+    width: 100%;
+    border-radius: 30px 30px 0 0;
+}
+.box h3{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+.box p{
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.box .butt{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 180px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(21, 104, 41);
+    color: white;
+    font-size: 18px;
+}
+.butt:hover{
+    background-color: beige;
+    color: rgb(21, 104, 41);
+    border: 1px solid rgb(21, 104, 41);
+}
+.dots{
+    display: flex;
+    gap: 6px;
+    margin-left: 890px;
+    margin-top: 40px;
+}
+.dots .dot{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+.dots .matcha{
+    background-color: rgb(21, 104, 41);
+}
+.dots .grey{
+    background-color: rgb(90, 88, 88);
+}

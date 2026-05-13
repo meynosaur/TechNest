@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Bayon&family=Dangrek&family=Fasthand&family=Fjalla+One&family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Lora:ital,wght@0,400..700;1,400..700&family=Metal&family=Moul&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    position: relative;
+    width: 400px;
+    height: 550px;
+    background-color: rgb(147, 167, 147);
+    border: 1px solid black;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    border: none;
+    @import url('https://fonts.googleapis.com/css2?family=Bayon&family=Dangrek&family=Fasthand&family=Fjalla+One&family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Lora:ital,wght@0,400..700;1,400..700&family=Metal&family=Moul&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+}
+.container:hover h2{
+        color: rgb(26, 88, 45);
+}
+.container img{
+    margin-left: 20px;
+    width: 370px;
+}
+.container h2{
+    margin-left: 40px;
+    margin-top: 20px;
+    color: black;
+    font-size: 25px;
+}
+.container .star{
+    display: flex;
+    gap: 5px;
+    margin-top: 25px;
+    margin-left: 40px;
+    font-size: 18px;
+}
+.star a{
+    color: rgb(241, 199, 60);
+}
+.star a:last-child{
+    color: rgb(122, 119, 119);
+}
+.container .price{
+    display: flex;
+    margin-top: 20px;
+    gap: 3px;
+    margin-left: 38px;
+    font-size: 20px;
+}
+.price p{
+    text-decoration: line-through;
+    margin-top: 2px;
+}
+.icons{
+    position: absolute;
+    right: 30px;
+    bottom: 40px;
+    font-size: 25px;
+}
+.icons .icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid rgb(116, 115, 115);
+    
+}
+.icons a{
+    color: rgb(66, 64, 64);
+    display: block;
+    margin-bottom: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.button button{
+    position: absolute;
+    right: 140px;
+    top: 160px;
+    width: 120px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgb(43, 102, 56);
+    border: 1px solid rgb(147, 167, 147);
+}
+.container:hover h2{
+        color: rgb(26, 88, 45);
+}
+.container img{
+    margin-left: 20px;
+    width: 370px;
+}
+.container h2{
+    margin-left: 40px;
+    margin-top: 20px;
+    color: black;
+    font-size: 25px;
+}
+.container .star{
+    display: flex;
+    gap: 5px;
+    margin-top: 25px;
+    margin-left: 40px;
+    font-size: 18px;
+}
+.star a{
+    color: rgb(241, 199, 60);
+}
+.star a:last-child{
+    color: rgb(122, 119, 119);
+}
+.container .price{
+    display: flex;
+    margin-top: 20px;
+    gap: 3px;
+    margin-left: 38px;
+    font-size: 20px;
+}
+.price p{
+    text-decoration: line-through;
+    margin-top: 2px;
+}
+.icons{
+    position: absolute;
+    right: 30px;
+    bottom: 40px;
+    font-size: 25px;
+
+    transform: translateX(50px); 
+    opacity: 0;
+    transition: 0.4s ease;
+}
+.container:hover .icons {
+    transform: translateX(0);
+    opacity: 1;
+}
+.icons .icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid rgb(116, 115, 115);
+    
+}
+.icons a{
+    color: rgb(66, 64, 64);
+    display: block;
+    margin-bottom: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.icons a:hover{
+    background-color: rgb(43, 102, 56);
+    color: white;
+}
+.button button{
+    position: absolute;
+    right: 140px;
+    top: 160px;
+    width: 120px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgb(43, 102, 56);
+    border: 1px solid rgb(147, 167, 147);
+
+    transform: translateY(-30px); 
+    opacity: 0;
+    transition: 0.4s ease;
+}
+.container:hover .button button {
+    transform: translateY(0);
+    opacity: 1;
+}
