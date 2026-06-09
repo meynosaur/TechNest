@@ -93,7 +93,7 @@ body{
     border: 1px solid rgb(147, 167, 147);
 }
 .container:hover h2{
-        color: rgb(26, 88, 45);
+    color: rgb(26, 88, 45);
 }
 .container img{
     margin-left: 20px;
